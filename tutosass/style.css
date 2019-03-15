@@ -1,0 +1,178 @@
+p {
+    color: #000000;
+    margin-top: 10px;
+
+}
+
+
+.carousel-inner {
+    border-radius: 20px;
+
+
+}
+
+h1 {
+    color: #623ae8;
+    font-family: 'ZCOOL QingKe HuangYou', 'Arial', sans-serif;
+}
+
+h3 {
+    color: #3e71ad;
+    font-family: 'ZCOOL QingKe HuangYou', 'Arial', sans-serif;
+}
+
+h2 {
+    color: #ffc95d;
+    font-family: 'ZCOOL QingKe HuangYou', 'Arial', sans-serif;
+}
+
+h4 {
+    color: #ffc95d;
+    font-family: 'ZCOOL QingKe HuangYou', 'Arial', sans-serif;
+}
+
+.newcontainer {
+    display: flex;
+
+}
+
+.news{
+    margin-left: 60px;
+}
+.marques{
+    border-bottom: solid 2px #3a51ff;
+}
+
+.cultures {
+   
+    text-align: left;
+
+
+}
+
+.banniere {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-color: black;
+    border-bottom: solid 2px #d26fdc;
+}
+
+.neon {
+    font-family: neon;
+    color: #FB4264;
+    font-size: 9vw;
+    line-height: 9vw;
+    text-shadow: 0 0 3vw #F40A35;
+}
+
+.flux {
+    font-family: neon;
+    color: #426DFB;
+    font-size: 9vw;
+    line-height: 9vw;
+    text-shadow: 0 0 3vw #2356FF;
+
+}
+
+.neon {
+    animation: neon 1s ease infinite;
+    -moz-animation: neon 1s ease infinite;
+    -webkit-animation: neon 1s ease infinite;
+}
+
+.flux {
+    animation: flux 2s linear infinite;
+    -moz-animation: flux 2s linear infinite;
+    -webkit-animation: flux 2s linear infinite;
+    -o-animation: flux 2s linear infinite;
+}
+
+
+.cultures {
+    background-color: #9371e0;
+    border-bottom: solid 1px #fff;
+ 
+}
+
+.section2 {
+    background-image: url(../tutosass/img-walk/yeezy.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20%;
+    border-bottom: solid 2px #ba7127
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #57bd84;
+    border-bottom: solid 3px #fff;
+  
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #ffdc4b;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #ffffff;
+    
+}
+
+.button:hover {background-color: #8090d4}
+
+.button:active {
+  background-color: #b29cfc;
+  box-shadow: 0 5px #bca1a1;
+  transform: translateY(4px);
+}
+
+.shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ffd580;
+
+}
+
+.card-group{
+    border-radius: 20px;
+ 
+}
+
+
+.po{
+    width: 380px;
+    text-align: center;
+    margin-left: 10px;
+    
+    
+}
+
+
+.footer {
+    color: #fff;
+    background-color: #303238;
+    text-align: center;
+    padding: 1rem;
+    border-top: solid 2px #fff;
+}
+
+.social {
+    padding: 10px;
+    font-size: 40px;
+}

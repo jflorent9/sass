@@ -1,0 +1,86 @@
+$paragraphe: #000000;
+$width: 100px;
+
+p{
+    color: $paragraphe;
+    margin-top: 10px;
+    
+}
+
+.carousel-inner{
+    border-radius: 20px;
+ 
+    
+}
+
+h1{
+    color: #623ae8;
+    font-family: 'ZCOOL QingKe HuangYou','Arial',sans-serif;
+}
+
+h3, h4 {
+    color: #3e71ad;
+    font-family: 'ZCOOL QingKe HuangYou','Arial',sans-serif;
+}
+h2{
+    color: #ffc95d;
+    font-family: 'ZCOOL QingKe HuangYou','Arial',sans-serif;
+}
+
+.newcontainer{
+    display: flex;
+    
+}
+
+.new {
+    margin-left: 60%;
+    position: relative;
+    top: -400px;
+    
+    
+}
+.culture{
+    margin-left: 60%;
+    position: relative;
+    top: -400px;
+    
+}
+
+.marques{
+    top: -380px;
+    position: relative;
+ 
+}
+
+.cultures{
+    top: -300px;
+    position: relative;
+    background-color: #ebff9a;
+    
+}
+.galerie {
+    top: -400px;
+    position: relative;
+   
+}
+
+
+.section2{
+    background-image: url(../tutosass/img-walk/yeezy.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20%;
+    top: -300px;
+    position:relative;
+}
+
+.header-galerie {
+    
+    background-image: url(../tutosass/img-walk/galerie-img1.jpg);
+    height : 100vh;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;    
+}
+

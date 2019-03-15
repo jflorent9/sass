@@ -1,0 +1,87 @@
+.header-galerie {
+
+    background-image: url(../tutosass/img-walk/galerie-img1.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6;
+}
+
+body {
+    padding: 15px;
+    font-family: sans-serif;
+    background: #d1f1ff;
+}
+
+img {
+width: 100%;
+
+}
+
+h1 {
+
+    color: #0062ff;
+    font-family: 'ZCOOL QingKe HuangYou', 'Arial', sans-serif;
+    margin-bottom: .8em;
+    text-decoration: underline;
+    text-decoration-color: #ffc400;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+    grid-column-gap: 20px;
+    grid-row-gap: 140px;
+}
+
+
+/* hover styles */
+.location-listing {
+    position: relative;
+}
+
+.location-image {
+
+    line-height: 0;
+    overflow: hidden;
+    border-radius: 4px;
+
+
+}
+
+.location-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+}
+
+.location-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90, 0, 10, 0.4);
+    color: #fff;
+    
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-listing:hover .location-title {
+    opacity: 1;
+}
+
+.location-listing:hover .location-image img {
+    filter: blur(1px);
+}
